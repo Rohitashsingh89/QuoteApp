@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(12, 12, 71);
+    color: white;
+}
+.container {
+    width: 100%;
+}
+.row {
+    background-color: rgb(11, 134, 241);
+    width: 50%;
+    height: 600px;
+    color: white;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.box {
+    /* position: absolute; */
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    display: block;
+    background-color: blue;
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: 0px solid red;
+}
+.text::before {
+    content: "“";
+    color: grey; /* Customize the color if needed */
+    font-size: 50px; /* Customize the font size if needed */
+    margin-right: 5px; /* Adjust the spacing if needed */
+}
+.quotes::before,
+    .quotes::after {
+    content: "“";
+    color:  black; /* Customize the color if needed */
+    font-size: 24px; /* Customize the font size if needed */
+    margin-right: 5px; /* Adjust the spacing if needed */
+}
+.quotes::after {
+    content: "”";
+    margin-left: 5px; /* Adjust the spacing if needed */
+}
+.text {
+    text-align: center;
+    padding: 20px;
+    /* padding: 1rem; */
+}
+.author::before {
+    content: " - ";
+    color: black;
+    font-size: 20px;
+}
+.author {
+    padding-top: 1rem;
+}
