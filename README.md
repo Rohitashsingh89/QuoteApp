@@ -2,7 +2,8 @@
 
 # visit now on this amazing app
 https://glowing-gecko-960eb5.netlify.app/
-logo192.png
+
+
 # React
 
 React is a javaScript library used to make frontend single page web Application.
