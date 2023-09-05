@@ -3,7 +3,6 @@
 # visit now on this amazing app
 https://glowing-gecko-960eb5.netlify.app/
 
-
 # React
 
 React is a javaScript library used to make frontend single page web Application.
@@ -20,7 +19,7 @@ export default function HelloWorld() {
 }
 ```
 
-### Frontend javascript library or frameword
+### Frontend javascript library or framework
 * React.js
 * Angular.js
 * Vue.js 
